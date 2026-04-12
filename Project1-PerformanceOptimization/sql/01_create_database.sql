@@ -1,0 +1,9 @@
+IF DB_ID('PerformanceProjectDB') IS NOT NULL
+BEGIN
+    ALTER DATABASE PerformanceProjectDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE PerformanceProjectDB;
+END
+GO
+
+CREATE DATABASE PerformanceProjectDB;
+GO
