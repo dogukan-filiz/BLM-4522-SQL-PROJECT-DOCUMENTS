@@ -2,17 +2,11 @@
 
 Bu depo, BLM4522 Ağ Tabanlı Paralel Dağıtım Sistemleri dersi kapsamında hazırlanan SQL tabanlı proje çalışmalarını içermektedir.
 
-## Proje İçeriği
+## Projeler
 
 ### Project1-PerformanceOptimization
 
-Bu klasörde “Veritabanı Performans Optimizasyonu ve İzleme” projesine ait çalışmalar bulunmaktadır.
-
-İçerik:
-
-* `sql/` : SQL Server üzerinde çalıştırılan script dosyaları
-* `report/` : Proje raporu taslağı ve final metni
-* `screenshots/` : SSMS çıktıları, execution plan görüntüleri ve performans ekran görüntüleri
+Bu klasörde **Veritabanı Performans Optimizasyonu ve İzleme** projesine ait SQL scriptleri, rapor dosyası ve ekran görüntüleri bulunmaktadır.
 
 ## Kullanılan Teknolojiler
 
@@ -20,6 +14,12 @@ Bu klasörde “Veritabanı Performans Optimizasyonu ve İzleme” projesine ait
 * SQL Server Management Studio (SSMS)
 * GitHub
 
+## Klasör Yapısı
+
+* `sql/` : Veritabanı oluşturma, veri ekleme, performans testi, indeks oluşturma ve DMV sorguları
+* `report/` : Proje raporu
+* `screenshots/` : Sorgu sonuçları, execution plan görüntüleri ve DMV çıktıları
+
 ## Not
 
-Bu depo proje geliştirme sürecini adım adım belgelemek amacıyla düzenli olarak güncellenmektedir.
+Bu depo proje geliştirme sürecini belgelemek amacıyla adım adım güncellenmiştir.
