@@ -1,5 +1,7 @@
 # Proje 1 - Veritabanı Performans Optimizasyonu ve İzleme
 
+## Youtube link: [YouTube](https://youtu.be/0W4Y35xwUUI)
+
 ## 1. Projenin Amacı
 
 Bu projenin amacı, SQL Server üzerinde oluşturulan örnek bir satış veritabanı üzerinden performans problemi oluşturan sorguları belirlemek, bu sorguların execution plan ve istatistik çıktılarını incelemek, uygun indeksler ile sorgu performansını iyileştirmek ve elde edilen sonuçları raporlamaktır.
