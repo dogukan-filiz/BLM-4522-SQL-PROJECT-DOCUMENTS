@@ -1,5 +1,7 @@
 # Proje 2 - Veritabanı Yedekleme ve Felaketten Kurtarma Planı
 
+## Youtube link: [YouTube](https://youtu.be/63zP8es5KWc)
+
 ## 1. Projenin Amacı
 
 Bu projenin amacı, SQL Server üzerinde çalışan bir veritabanı için yedekleme ve felaketten kurtarma sürecini uygulamalı olarak göstermektir. Çalışmada tam yedek (full backup), fark yedeği (differential backup), işlem günlüğü yedeği (transaction log backup) ve restore işlemleri uygulanmıştır.
