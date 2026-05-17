@@ -1,0 +1,12 @@
+USE master;
+GO
+
+IF DB_ID('SecurityProjectDB') IS NOT NULL
+BEGIN
+    ALTER DATABASE SecurityProjectDB SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+    DROP DATABASE SecurityProjectDB;
+END
+GO
+
+CREATE DATABASE SecurityProjectDB;
+GO
